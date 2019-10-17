@@ -3,7 +3,7 @@ package com.yee;
 import java.io.IOException;
 import java.util.*;
 
-public class Main  implements {
+public class Main {
 
 
 
@@ -115,7 +115,7 @@ public class Main  implements {
             signVertex.put(maxVex, new Boolean(true));
         }
 
-        for(int i=0; i<seedNodes.size(); i++){
+        for(int i = 0; i<seedNodes.size(); i++){
             Vertex v = seedNodes.get(i);
             System.out.println(v.label);
         }
