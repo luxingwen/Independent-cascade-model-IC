@@ -108,6 +108,7 @@ public class Main {
                 double value = calculAvg(graph, list);//刚刚加入的节点的值
 
                 if (maxVal < value){// 找到最大值的节点
+                    maxVal = value;
                     maxVex = vertex;
                 }
             }
